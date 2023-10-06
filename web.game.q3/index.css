@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+
+}
+ .container {
+  display: block;
+  position: relative;
+  margin: 40px auto;
+  height: auto;
+  width: 500px;
+  padding: 20px;
+ }
+
+ .question-3 {
+    list-style-type: none;
+   
+ }
