@@ -2,32 +2,76 @@ body {
   background-color: white;
 }
 
-.box {
-  width: 30%;
-  height: 30%;
-  margin: 0 auto;
-  background-color: pink;
+h3 {
+  padding-top: 20px;
+}
+
+.container {
+margin: 40px auto;
+height: 350px;
+width: 600px;
+padding: 20px;
+border-radius: 25px;
+background-color: rgba(173, 244, 232, 0.891);
+text-align: center;
+}
+
+.btn-group {
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  padding: 20px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
+
+}
+
+#feedback {
   text-align: center;
-  margin-top: 300px;
-  left: 30px;
+  font-size: 20px;
 }
 
-.fa-solid {
-  color: hotpink;
-  font-size: 30px;
-  text-align: center;
+.score-container {
+  position: fixed;
+  top: 10px; 
+  right: 10px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.navbar {
-  background-color: pink;
-  padding: 12px 6px;
+/* Style for the points */
+#correct-answers {
+  font-weight: bold;
+  color: green;
 }
+/* style for the bet container */
+.bet-container{
+  background-color: pinks;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 250px;
+  border-style: null;
+ text-align: center;
+ margin-left: 550px;
+margin-top: 20px;
+font-size: larger;
 
-.navlinks {
-  display: inline-flex;
-  justify-content: space-evenly;
-  width: 100%;
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
+}
+.bet-button{
+background-color: black;
+text-align: center;
+align-items: center;
+margin-left: 10px;
+font-weight: bold;
+color: white;
+
 }

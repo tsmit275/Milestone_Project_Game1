@@ -1,36 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="logic" href="index.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js"></script>
 </head>
-
 <body>
- <!-- added a navbar to display categories for the products sold -->
-    <div class="navbar">
-            <ul class="navlinks">
-                <li>Airport Fits</li>
-                <li>Bags & Lugage</li>
-                <li>Makeup & Personal Care</li>
-                <li>Travel Must Haves</li>
-
-            </ul>
-        </div>
-
-    <div class="box">
-        <h2>Want to earn up to 50% off of your purchase?</h2>
-        <p>Answer 3 Travel Trivia questions correctly to win</p>
-        <button class = "fa-solid fa-plane circle-icon"></button>
-        <p>click to begin </p>
+    <div class="container">
+        <h3></h3>
+        <div class="answers"></div>
     </div>
-
+    <div class="score-container">
+        <span>Correct Answers: <span id="correct-answers">0</span></span>
+    </div>
+    <div id="feedback"></div>
+    <div class="bet-container" style="display: none;">
+        <h3>Want to bet all your points for 50% off?</h3>
+        <button class="btn btn-primary bet-button" id="yes-button">Yes</button>
+        <button class="btn btn-primary bet-button" id="no-button">No</button>
+    </div>
+    <div id="confetti">
+        
+    </div>
 </body>
-
 </html>
